@@ -266,11 +266,10 @@ select Outlet_Location_Type ,
 
 select Outlet_Type ,
        cast(sum(Total_Sales) AS decimal(10,2)) as Total_Sales_By_Outlet_Type ,
-	   (select sum(Total_Sales) from blinkit_data) as Overall_Sales ,
-	   concat(cast(sum(Total_Sales) / (select sum(Total_Sales) from blinkit_data) * 100 AS decimal(10,2)) , ' %')
-	   as Sales_Percentage_By_Outlet_Type,
-	   cast(avg(Total_Sales) AS decimal(10,2)) as Avg_Sales_By_Outlet_Type , 
-	   cast(count(Item_Type) AS decimal(10,0)) as Count_Item_Type_By_Outlet_Type , 
-	   cast(avg(Rating) AS decimal(10,2)) as Average_Rating
-	   from blinkit_data
-	   group by Outlet_Type order by Total_Sales_By_Outlet_Type desc;
+       (select sum(Total_Sales) from blinkit_data) as Overall_Sales ,
+	concat(cast(sum(Total_Sales) / (select sum(Total_Sales) from blinkit_data) * 100 AS decimal(10,2)) , ' %')
+	as Sales_Percentage_By_Outlet_Type,
+	cast(avg(Total_Sales) AS decimal(10,2)) as Avg_Sales_By_Outlet_Type , 
+	cast(count(Item_Type) AS decimal(10,0)) as Count_Item_Type_By_Outlet_Type , 
+	cast(avg(Rating) AS decimal(10,2)) as Average_Rating from blinkit_data
+	group by Outlet_Type order by Total_Sales_By_Outlet_Type desc;
