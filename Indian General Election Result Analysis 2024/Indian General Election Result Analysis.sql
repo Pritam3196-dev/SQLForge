@@ -624,15 +624,14 @@ select count(distinct(cr.parlimentry_constituency)) as "Total_no_seats_in_state"
 
 
 select count(distinct(cr.parlimentry_constituency)) as constitunecy_count , 
-count(distinct(cd.candidate)) as candidate_count, 
-count(distinct(pr.party)) as party_count , 
-sum(cd.total_votes) as Total_votes,
-sum(cd.evm_votes) as evm_votes,
-sum(cd.postal_votes) as postal_votes
-from constituencywise_results as cr inner join 
-statewise_results as sr
-on cr.parlimentry_constituency = sr.parlimentry_constituency
-inner join states as s on sr.state_id = s.state_id
-inner join constituencywise_details as cd on cd.constituency_id = cr.constituency_id
-inner join partywise_results as pr on cr.party_id = pr.party_id
-where s.state = 'Maharashtra';
+       count(distinct(cd.candidate)) as candidate_count, 
+       count(distinct(pr.party)) as party_count , 
+       sum(cd.total_votes) as Total_votes,
+       sum(cd.evm_votes) as evm_votes,
+       sum(cd.postal_votes) as postal_votes
+       from constituencywise_results as cr inner join statewise_results as sr
+       on cr.parlimentry_constituency = sr.parlimentry_constituency
+       inner join states as s on sr.state_id = s.state_id
+       inner join constituencywise_details as cd on cd.constituency_id = cr.constituency_id
+       inner join partywise_results as pr on cr.party_id = pr.party_id
+       where s.state = 'Maharashtra';
