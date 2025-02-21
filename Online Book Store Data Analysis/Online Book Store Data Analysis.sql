@@ -303,9 +303,12 @@ select * from customer_spent_on_orders where Rank_ <= 1;
 --9) Calculate the stock remaining after fulfilling all orders;
 
 
-select b.book_id ,Title , sum(stock) as Stock , sum(Quantity) as Order_Quantity , 
-stock - sum(Quantity) as Stock_Available_After_Fulfil_Orders
-from books as b 
-inner join orders as o on b.book_id = o.book_id
-group by b.book_id , Title
-order by b.book_id;
+select b.book_id ,
+       Title , 
+	   sum(stock) as Stock , 
+	   sum(Quantity) as Order_Quantity , 
+       stock - sum(Quantity) as Stock_Available_After_Fulfil_Orders
+       from books as b 
+       inner join orders as o on b.book_id = o.book_id
+       group by b.book_id , Title
+       order by b.book_id;
