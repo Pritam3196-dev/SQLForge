@@ -589,16 +589,3 @@ select * from Department;
 ------ find employees in the HR department and their years of service
 
 select first_name , last_name  , years_of_Service , DepartName from dbo.get_years_service_dept('Human Resources'); 
-
---select first_name , last_name  , years_of_Service from dbo.get_years_service_dept('Engineering'); 
---select first_name , last_name  , years_of_Service , DepartName from dbo.get_years_service_dept('Sales'); 
---select first_name , last_name  , years_of_Service , DepartName from dbo.get_years_service_dept('Marketing');
---select first_name , last_name  , years_of_Service , DepartName from dbo.get_years_service_dept('Finance'); 
-
-
-
-
-
-
-
---drop function dbo.get_years_service_dept;
