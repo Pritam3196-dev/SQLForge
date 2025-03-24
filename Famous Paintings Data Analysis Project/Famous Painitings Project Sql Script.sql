@@ -597,8 +597,8 @@ select full_name as Artist_name ,
 
 select * ,
        case 
-           WHEN Rank_sale_price = 1 THEN 'Expensive Painting'
-           ELSE 'InExpensive Painting'
+           WHEN Rank_sale_price = 1 THEN 'Most Expensive Painting'
+           ELSE 'Least Expensive Painting'
        END as Expensive_Inexpensive
        from Most_least_expensive ;
 
