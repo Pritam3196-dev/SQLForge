@@ -185,13 +185,15 @@ select * from most_cost_canva_size where Rank_sale_price <= 1;
 -- work
 
 With work_table AS(
+
+
 select * , 
-       Rank() over(partition by work_id order by  work_id asc) as Rank_work_id 
+       Row_number() over(partition by work_id order by  work_id asc) as Row_number_work_id 
        from work
 
 )
 
-Delete from work where work_id in (select work_id from work_table where Rank_work_id >= 2);
+Delete from work where work_id in (select work_id from work_table where Row_number_work_id >= 2);
 
 
 -- product_size
@@ -597,8 +599,8 @@ select full_name as Artist_name ,
 
 select * ,
        case 
-           WHEN Rank_sale_price = 1 THEN 'Most Expensive Painting'
-           ELSE 'Least Expensive Painting'
+           WHEN Rank_sale_price = 1 THEN 'Expensive Painting'
+           ELSE 'InExpensive Painting'
        END as Expensive_Inexpensive
        from Most_least_expensive ;
 
