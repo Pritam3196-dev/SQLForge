@@ -3,6 +3,10 @@
 
 select * from worker where first_name not in ('Vipul' , 'Satish');
 
+-- or
+
+select * from worker where first_name != 'Vipul' or first_name != 'Satish';
+
 
 -- Q-2. Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘h’ and contains six alphabets.
 
