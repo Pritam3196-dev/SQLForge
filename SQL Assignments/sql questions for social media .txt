@@ -1,0 +1,58 @@
+Sure! Here's just the list:
+
+1. Select all users from the `Users` table.
+2. Select user details where the `Username` is 'john_doe'.
+3. Select posts made by a specific user, e.g., `User_id = 5`.
+4. Select all photos with size less than 3 MB.
+5. Select all videos that have a size greater than 5 MB.
+6. Count the total number of comments for a specific post.
+7. Join `Users` and `Post` to get details of posts along with the usernames.
+8. Join `Post` and `Photos` to get posts that have photos, showing the photo URLs.
+9. Join `Post`, `Photos`, and `Users` to get all posts, photo URLs, and the usernames of users who made those posts.
+10. Join `Post`, `Videos`, and `Users` to show posts with videos and the usernames of the users who created them.
+11. Join `Post`, `Comments`, and `Users` to get all comments on posts along with the usernames of the commenters.
+12. Join `Post`, `Post_likes`, and `Users` to get posts with the number of likes and the usernames of the users who liked the post.
+13. Count the number of posts each user has made.
+14. Count the number of followers for each user.
+15. Find the most popular hashtags by counting how many times each hashtag has been used in posts.
+16. Count the number of comments per post.
+17. Find the average size of videos uploaded.
+18. Find the most liked posts by counting likes from `Post_likes`.
+19. Find users who follow the most hashtags.
+20. Find the total number of bookmarks per user.
+21. Find the posts that have more than 10 comments.
+22. Find the most active user who has posted the most number of photos.
+23. Find the user who has the most followers.
+24. Find posts that do not have any hashtags.
+25. Find the posts that are liked by the maximum number of users.
+26. Find posts without any bookmarks.
+27. Find users who have liked a specific post.
+28. Find users who have followed a specific hashtag.
+29. Insert a new user into the `Users` table.
+30. Insert a new post with a photo, video, and caption.
+31. Update the bio for a user with `User_id = 3`.
+32. Add a new follower to a user.
+33. Add a like for a specific post by a user.
+34. Add a comment for a post by a user.
+35. Add a new hashtag to a post.
+36. Delete a comment from a specific post.
+37. Delete a user from the system (cascading deletes if necessary).
+38. Delete a post and all related data (comments, likes).
+39. Delete a hashtag that is no longer associated with any posts.
+40. Delete a bookmark by a user.
+41. Find the most active followers (users who are followed by many).
+42. Find users who have not posted anything.
+43. Find posts by users who have a specific follower count.
+44. Find all posts with photos or videos (OR condition).
+45. Find posts by users who follow a specific hashtag.
+46. Find posts that have both photos and videos.
+47. Find users who have both liked posts and commented on posts.
+48. Create a transaction to update a user's email and add a new post.
+49. Rollback a transaction if a post is deleted along with its related data.
+50. Use a transaction to add multiple likes for different posts.
+51. Find users who have not followed anyone.
+52. Find the posts which are liked by a specific user but not commented on by them.
+53. Find the posts that have more likes than comments.
+54. Find users who follow the most number of hashtags, ordered by count.
+55. Find posts made by users who have followed at least 3 hashtags.
+56. Find posts where the number of comments is greater than the number of likes.
