@@ -1,0 +1,123 @@
+Absolutely! Here's a tailored list of **Python interview programs specifically focused on Data Analyst roles**. These questions are a mix of **coding exercises, data manipulation tasks, and logic-based problems** that frequently appear in interviews at companies like **Google, Amazon, Meta, and startups** hiring Data Analysts.
+
+---
+
+## 🧠 **Python Coding Questions for Data Analysts**
+
+### 1. 📊 **Read and Analyze a CSV File**
+**Task:** Load a CSV and display the top 5 rows.
+
+```python
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+print(df.head())
+```
+
+---
+
+### 2. 🧮 **Group By and Aggregation**
+**Task:** Calculate the average salary per department.
+
+```python
+df.groupby('Department')['Salary'].mean()
+```
+
+---
+
+### 3. 📈 **Find the Most Frequent Item in a Column**
+**Task:** Which product was sold the most?
+
+```python
+df['Product'].value_counts().idxmax()
+```
+
+---
+
+### 4. 📅 **Convert a Column to Datetime and Extract Year**
+```python
+df['Date'] = pd.to_datetime(df['Date'])
+df['Year'] = df['Date'].dt.year
+```
+
+---
+
+### 5. 🧼 **Missing Value Handling**
+```python
+# Drop missing values
+df.dropna(inplace=True)
+
+# Fill with mean
+df['Age'].fillna(df['Age'].mean(), inplace=True)
+```
+
+---
+
+### 6. 🧮 **Calculate Percent Change in Sales**
+```python
+df['Percent_Change'] = df['Sales'].pct_change() * 100
+```
+
+---
+
+### 7. 📉 **Detect and Remove Outliers Using IQR**
+```python
+Q1 = df['Sales'].quantile(0.25)
+Q3 = df['Sales'].quantile(0.75)
+IQR = Q3 - Q1
+df = df[(df['Sales'] >= Q1 - 1.5 * IQR) & (df['Sales'] <= Q3 + 1.5 * IQR)]
+```
+
+---
+
+### 8. 📋 **Create Pivot Table**
+```python
+pd.pivot_table(df, values='Sales', index='Region', columns='Product', aggfunc='sum')
+```
+
+---
+
+### 9. 🔁 **Loop Over Rows and Add Conditional Column**
+```python
+df['Category'] = df['Sales'].apply(lambda x: 'High' if x > 1000 else 'Low')
+```
+
+---
+
+### 10. 🔍 **SQL-like Filtering Using Pandas**
+```python
+# Equivalent of: SELECT * FROM table WHERE Age > 30 AND Gender = 'Male'
+df[(df['Age'] > 30) & (df['Gender'] == 'Male')]
+```
+
+---
+
+## 🛠 Common Libraries to Know
+
+- `pandas` – For data manipulation
+- `numpy` – For numerical operations
+- `matplotlib` & `seaborn` – For visualization
+- `scipy.stats` – For statistical analysis (used occasionally)
+
+---
+
+## Bonus: Data Analyst-Specific Logic Challenges
+
+### 🔢 11. **Calculate Cumulative Sum by Group**
+```python
+df['Cumulative_Sales'] = df.groupby('Product')['Sales'].cumsum()
+```
+
+### 📉 12. **Rolling Average of Last 3 Months**
+```python
+df['3_Month_Rolling_Avg'] = df['Sales'].rolling(window=3).mean()
+```
+
+### 📦 13. **Top N Products by Revenue**
+```python
+df.groupby('Product')['Revenue'].sum().sort_values(ascending=False).head(5)
+```
+
+---
+
+Would you like this as a **downloadable notebook** or want practice problems with sample data included? Let me know and I can prepare that for you!
