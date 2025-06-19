@@ -1,0 +1,26 @@
+Employee_Number,lastname,firstname,extension,email,reports_to,Job_title,office_code
+1001,Miller,Jack,x101,jack.miller@company.com,1001,President,OC001
+1002,Adams,Karen,x102,karen.adams@company.com,1001,VP Sales,OC001
+1003,Tanaka,Ken,x201,ken.tanaka@company.com,1002,VP Marketing,OC002
+1004,Dupont,Claire,x301,claire.dupont@company.com,1001,VP EMEA,OC006
+1005,Sharma,Raj,x401,raj.sharma@company.com,1002,Director,OC007
+1006,Klein,Emma,x501,emma.klein@company.com,1004,Sales Rep,OC003
+1007,Perez,Carlos,x601,carlos.perez@company.com,1005,Sales Rep,OC010
+1008,Nguyen,Linh,x701,linh.nguyen@company.com,1005,Sales Rep,OC008
+1009,Campbell,Sarah,x801,sarah.campbell@company.com,1002,Sales Rep,OC002
+1010,Leblanc,Jean,x901,jean.leblanc@company.com,1004,Sales Rep,OC006
+1011,Smith,Amanda,x1111,amanda.smith@company.com,1002,Sales Rep,OC002
+1012,Chow,Eric,x1212,eric.chow@company.com,1005,Sales Rep,OC008
+1013,Taylor,Robert,x1313,robert.taylor@company.com,1002,Sales Rep,OC001
+1014,López,Maria,x1414,maria.lopez@company.com,1005,Sales Rep,OC010
+1015,Kim,Jisun,x1515,jisun.kim@company.com,1003,Marketing Exec,OC008
+1016,Gupta,Priyanka,x1616,priyanka.gupta@company.com,1005,Sales Rep,OC007
+1017,Foster,Michael,x1717,michael.foster@company.com,1005,Sales Rep,OC004
+1018,Rossi,Luca,x1818,luca.rossi@company.com,1004,Sales Rep,OC009
+1019,Yamamoto,Aiko,x1919,aiko.yamamoto@company.com,1003,Sales Rep,OC005
+1020,Nielsen,Hans,x2020,hans.nielsen@company.com,1004,Sales Rep,OC009
+1021,Jones,Nina,x2121,nina.jones@company.com,1002,Sales Rep,OC001
+1022,Rahman,Faisal,x2222,faisal.rahman@company.com,1005,Sales Rep,OC007
+1023,Duran,Luis,x2323,luis.duran@company.com,1005,Sales Rep,OC010
+1024,Patel,Aarti,x2424,aarti.patel@company.com,1005,Sales Rep,OC004
+1025,Chang,Wei,x2525,wei.chang@company.com,1005,Sales Rep,OC008

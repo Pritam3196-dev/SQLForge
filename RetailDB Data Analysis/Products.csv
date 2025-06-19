@@ -1,0 +1,51 @@
+Product_code,product_name,productscale,ProductVendor,Productdescription,Quantityinstock,buyprice,MSRP,Productline
+PC0001,Product1,01:18,VendorA,Description for Product1,132,60,144,Motorcycles
+PC0002,Product2,01:18,VendorB,Description for Product2,227,54,120,Classic Cars
+PC0003,Product3,01:18,VendorC,Description for Product3,98,37,124,Planes
+PC0004,Product4,01:18,VendorB,Description for Product4,255,93,129,Ships
+PC0005,Product5,01:18,VendorA,Description for Product5,172,50,126,Trains
+PC0006,Product6,01:18,VendorC,Description for Product6,90,41,98,Vintage Cars
+PC0007,Product7,01:18,VendorD,Description for Product7,112,87,171,Race Cars
+PC0008,Product8,01:18,VendorA,Description for Product8,289,33,113,Classic Cars
+PC0009,Product9,01:18,VendorB,Description for Product9,189,40,126,Trucks and Buses
+PC0010,Product10,01:18,VendorD,Description for Product10,347,74,160,Construction Equipment
+PC0011,Product11,01:18,VendorC,Description for Product11,220,28,99,Motorcycles
+PC0012,Product12,01:18,VendorA,Description for Product12,130,66,121,Ships
+PC0013,Product13,01:18,VendorB,Description for Product13,305,59,132,Trucks and Buses
+PC0014,Product14,01:18,VendorD,Description for Product14,275,70,150,Planes
+PC0015,Product15,01:18,VendorC,Description for Product15,168,25,92,Classic Cars
+PC0016,Product16,01:18,VendorA,Description for Product16,376,48,112,Farm Equipment
+PC0017,Product17,01:18,VendorB,Description for Product17,94,36,111,Vintage Cars
+PC0018,Product18,01:18,VendorD,Description for Product18,155,42,99,Race Cars
+PC0019,Product19,01:18,VendorC,Description for Product19,198,90,171,Construction Equipment
+PC0020,Product20,01:18,VendorA,Description for Product20,263,33,122,Classic Cars
+PC0021,Product21,01:18,VendorB,Description for Product21,300,71,131,Ships
+PC0022,Product22,01:18,VendorD,Description for Product22,210,27,92,Motorcycles
+PC0023,Product23,01:18,VendorA,Description for Product23,125,39,114,Trucks and Buses
+PC0024,Product24,01:18,VendorC,Description for Product24,180,57,121,Trains
+PC0025,Product25,01:18,VendorB,Description for Product25,143,63,139,Farm Equipment
+PC0026,Product26,01:18,VendorD,Description for Product26,215,86,175,Planes
+PC0027,Product27,01:18,VendorC,Description for Product27,167,45,103,Vintage Cars
+PC0028,Product28,01:18,VendorA,Description for Product28,234,92,178,Race Cars
+PC0029,Product29,01:18,VendorB,Description for Product29,124,34,108,Classic Cars
+PC0030,Product30,01:18,VendorC,Description for Product30,318,51,130,Ships
+PC0031,Product31,01:18,VendorD,Description for Product31,270,69,142,Construction Equipment
+PC0032,Product32,01:18,VendorA,Description for Product32,199,36,120,Trains
+PC0033,Product33,01:18,VendorB,Description for Product33,140,44,101,Farm Equipment
+PC0034,Product34,01:18,VendorD,Description for Product34,87,37,117,Planes
+PC0035,Product35,01:18,VendorC,Description for Product35,211,93,183,Motorcycles
+PC0036,Product36,01:18,VendorA,Description for Product36,170,25,95,Vintage Cars
+PC0037,Product37,01:18,VendorB,Description for Product37,295,56,128,Classic Cars
+PC0038,Product38,01:18,VendorC,Description for Product38,245,60,143,Ships
+PC0039,Product39,01:18,VendorD,Description for Product39,134,41,104,Construction Equipment
+PC0040,Product40,01:18,VendorA,Description for Product40,290,83,161,Trucks and Buses
+PC0041,Product41,01:18,VendorB,Description for Product41,178,39,110,Farm Equipment
+PC0042,Product42,01:18,VendorC,Description for Product42,312,71,149,Planes
+PC0043,Product43,01:18,VendorD,Description for Product43,160,50,117,Trains
+PC0044,Product44,01:18,VendorB,Description for Product44,148,46,116,Motorcycles
+PC0045,Product45,01:18,VendorA,Description for Product45,272,67,135,Classic Cars
+PC0046,Product46,01:18,VendorC,Description for Product46,194,52,129,Ships
+PC0047,Product47,01:18,VendorD,Description for Product47,84,35,113,Trucks and Buses
+PC0048,Product48,01:18,VendorA,Description for Product48,188,62,140,Race Cars
+PC0049,Product49,01:18,VendorB,Description for Product49,276,59,132,Farm Equipment
+PC0050,Product50,01:18,VendorC,Description for Product50,150,44,112,Construction Equipment

@@ -1,0 +1,11 @@
+office_code,City,Phone,adressline1,addressline2,state,Country,Postal_code,territory,officelocation_latitude,officelocation_longitude
+OC001,New York,2125551001,100 Wall St,,NY,USA,10005,NA,40.706,-74.008
+OC002,San Francisco,4155552002,200 Market St,,CA,USA,94105,NA,37.793,-122.396
+OC003,London,2075553003,300 King Rd,,London,UK,EC1A 1BB,EMEA,51.515,-0.092
+OC004,Toronto,4165554004,400 Bay St,,ON,Canada,M5J2N8,NA,43.646,-79.38
+OC005,Sydney,2955530005,500 George St,,NSW,Australia,2000,APAC,-33.868,151.209
+OC006,Paris,1555530006,600 Rue Rivoli,,Ile-de-France,France,75001,EMEA,48.861,2.336
+OC007,Mumbai,2225530007,700 Marine Dr,,MH,India,400002,APAC,18.944,72.823
+OC008,Singapore,6565530008,800 Orchard Rd,,Central,Singapore,238896,APAC,1.305,103.831
+OC009,Berlin,3055530009,900 Alexanderplatz,,Berlin,Germany,10178,EMEA,52.521,13.413
+OC010,Rio de Janeiro,2155530010,1000 Copacabana,,RJ,Brazil,22070-002,SA,-22.971,-43.182

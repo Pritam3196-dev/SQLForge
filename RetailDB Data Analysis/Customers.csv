@@ -1,0 +1,31 @@
+Customer_number,customer_name,contactlastname,contactfirstname,phone,addressline1,adressline2,city,state,Postal_code,country,SalesREmployeenumber,CreditLimit,Customerlocation_latitute,Customerlocation_longitude
+1001,Acme Corp,Johnson,Mary,5557891234,100 Industrial Way,,Metropolis,NY,10010,USA,1013,50000,40.7128,-74.006
+1002,Globex,Smith,John,5557895678,200 Market St,Apt 12,Gotham,NY,10011,USA,1011,75000,41.8781,-87.6298
+1003,Initech,Brown,Linda,5554561234,300 Commerce Blvd,,Star City,CA,90012,USA,1016,30000,34.0522,-118.2437
+1004,Stark Industries,Wayne,Bruce,5559991122,400 Innovation Dr,,Central City,IL,10013,USA,1006,150000,29.7604,-95.3698
+1005,Wonka Inc,Lee,Charlie,5551237890,500 Chocolate Ave,Suite 1,Emerald City,WA,98101,USA,1007,20000,47.6062,-122.3321
+1006,Hooli,Andrews,Mark,5552341111,600 Tech Park,,Silicon Valley,CA,94027,USA,1009,80000,37.4419,-122.143
+1007,Vehement,Clark,Sam,5559870000,700 Energy Plaza,,Houston,TX,77001,USA,1017,40000,29.7604,-95.3698
+1008,Bluth Co,Bluth,Michael,5553219999,123 Banana Stand,,Newport Beach,CA,92660,USA,1021,15000,33.6189,-117.9298
+1009,Pied Piper,Dinesh,Chugtai,5557654321,888 Compression Ln,,Palo Alto,CA,94301,USA,1025,60000,37.4419,-122.143
+1010,Massive Dynamic,Bishop,Nina,5554443333,100 SciTech Rd,,NYC,NY,10016,USA,1008,70000,40.7128,-74.006
+1011,Vandelay Industries,Seinfeld,Jerry,5551212121,23 Latex Blvd,,Queens,NY,11375,USA,1013,25000,40.7282,-73.7949
+1012,Dunder Mifflin,Scott,Michael,5551112233,1725 Slough Ave,,Scranton,PA,18503,USA,1013,15000,41.4089,-75.6624
+1013,Sabin Corp,Sabin,Elaine,5558880001,19 Furniture Dr,,Tulsa,OK,74104,USA,1018,45000,36.154,-95.9928
+1014,Oscorp,Osborn,Harry,5559996666,7 Spider Web St,,NYC,NY,10012,USA,1006,70000,40.7282,-74.0059
+1015,Paper Co,Pam,Beesly,5557778888,66 Art Studio Ave,,Scranton,PA,18503,USA,1013,12000,41.4089,-75.6624
+1016,DynaTech,Farrell,Nick,5553335555,44 Silicon Cir,,SF,CA,94107,USA,1025,95000,37.7749,-122.4194
+1017,SkyNet,Dyson,Miles,5552223333,9 Judgment Day Rd,,LA,CA,90001,USA,1025,100000,34.0522,-118.2437
+1018,Soul Tech,Choi,Yuna,5551114444,88 Smart St,,Seattle,WA,98102,USA,1012,35000,47.6062,-122.3321
+1019,NextGen AI,Park,Jinsoo,5553338888,102 Innovation Dr,,Chicago,IL,60601,USA,1010,65000,41.8781,-87.6298
+1020,Wayne Enterprises,Pennyworth,Alfred,5550001111,1 Batcave Ln,,Gotham,NY,10011,USA,1011,100000,40.7282,-73.7949
+1021,Umbrella Corp,Redfield,Claire,5558882222,21 Biotech Rd,,Raccoon City,MO,64101,USA,1019,85000,39.0997,-94.5786
+1022,Future Labs,Martin,Doc,5555551234,456 Flux Ave,,Hill Valley,CA,95420,USA,1020,32000,38.4404,-122.7141
+1023,Tyrell Corp,Eldon,Tyrell,5557896543,789 Android St,,LA,CA,90090,USA,1020,120000,34.0522,-118.2437
+1024,Jurassic Tech,Grant,Alan,5553334444,12 Dino Park Blvd,,San Diego,CA,92101,USA,1019,45000,32.7157,-117.1611
+1025,WayFinder Corp,Ray,Ben,5556667777,300 Galaxy Ave,,Orlando,FL,32801,USA,1017,37000,28.5383,-81.3792
+1026,Cloudify,Chen,Xiao,5552221111,11 Cloud Dr,,San Jose,CA,95112,USA,1016,61000,37.3382,-121.8863
+1027,ZenSoft,Huang,Leo,5551122334,44 Zen Way,,Austin,TX,73301,USA,1014,57000,30.2672,-97.7431
+1028,MacroTech,Nguyen,Minh,5554433221,303 Macro Blvd,,Houston,TX,77002,USA,1014,69000,29.7604,-95.3698
+1029,HyperTech,Singh,Arjun,5558889999,404 Speed Rd,,Chicago,IL,60605,USA,1010,52000,41.8781,-87.6298
+1030,FusionSys,Morris,Anna,5551010101,505 Fusion Way,,Atlanta,GA,30303,USA,1011,88000,33.749,-84.388
